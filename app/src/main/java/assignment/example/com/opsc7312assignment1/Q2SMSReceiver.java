@@ -15,8 +15,6 @@ public class Q2SMSReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        //end broadcast
-        this.abortBroadcast();
 
         //get sms
         Bundle SMSbundle = intent.getExtras();
@@ -40,9 +38,9 @@ public class Q2SMSReceiver extends BroadcastReceiver {
                 // SMSStr set to sms message
                 SMSStr += SMSMsg[cnt].getMessageBody().toString();
             }
-
         }
-
+        //end broadcast
+        this.abortBroadcast();
         //intent to update the activity with the sms
         Intent broadCastIntent = new Intent();
         broadCastIntent.setAction("SMS_RECEIVED_ACTION");
