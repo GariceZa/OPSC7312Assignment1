@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OPSC7312Assignment1</string>
+    <string name="shareAContact">Share A Contact</string>
+    <string name="send">Send: </string>
+    <string name="hi">Hi </string>
+    <string name="thenumberfor"> The number for </string>>
+    <string name="to">To: </string>
+    <string name="is">is: </string>
+    <string name="btnSend">Send SMS</string>
+    <string name="btnExit">Exit</string>
+    <string name="name">Student: Gareth Price</string>
+    <string name="opsc7312">Module: OPSC 7312</string>
+    <string name="disd3">Course: DISD 3</string>
+    <string name="q1">Question 1</string>
+    <string name="q2">Question 2</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="help">Help</string>
+    <string name="ok">Ok</string>
+    <string name="Save">Save</string>
+    <string name="error">Error: </string>
+    <string name="spamwarning">WARNING: This message is spam!!</string>
+    <string name="nomessagestocheck">No SMS Message To Check</string>
+    <string name="nomessages">No messages saved</string>
+    <string name="fileloaded">File Loaded Successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="nospam">No spam detected, would you like to save this message?</string>
+    <string name="viewsavedmsgs">Saved Messages:</string>
+    <string name="viewmsgs">View Saved Messages</string>
+    <string name="message">Message:</string>
+    <string name="smssaved">SMS Saved To File</string>
+    <string name="errorsaving">Error saving: </string>
+    <string name="startmsg">Use the menu to navigate through the application</string>
+    <string name="spamchck">Perform Spam Check</string>
+    <string name="nonewmessage">No New Messages</string>
+    <string name="launchQ1">Launch Question 1</string>
+    <string name="studentnum">Student number: 11044620</string>
+    <string name="exitmessage">Are you sure you want to exit</string>
+    <string name="tvAboutQ1">Question 1: Create an Android App that will allow a user to search and
+        retrieve a name and phone number from the “Contacts Content Provider” on a mobile phone.
+        This information must then be sent by SMS to another contact (who requested the information)
+        from the “Contacts Content Provider”.</string>
+    <string name="tvAboutQ2">Question 2: create a main activity to display a GUI and also a SMSReceiver that extends
+        the BroadCastReceiver.In this app you create a spam checker and a method to transfer your SMS to
+        file storage. Create a class named “SMSReceiver” that will receive a SMS.
+        Use the DDMS to send SMSs to your emulator.</string>
+
+    <string name="tvQ1Help">To send a contacts name and phone number to another contact start typing the contacts
+        name in the send text box, you will be prompted with suggestions based on your input so once you see the
+        contact that you wish to send select it from the suggestions. Next, start typing the name of the contact
+        you wish to send the details to in the to text box and select the required contact from the suggestions.
+        The send sms button should now be enabled, click it to send the details.</string>
+
+    <string name="tvQ2Help">Use this app to check your sms for spam, the application will look for the words
+        win or competition and if it finds either of these words a warning will display. Messages that do not contain
+        any spam can be saved to a file. To check a message for spam click the message or open the options menu and click
+        perform spam check</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home" >
+    <item android:id="@+id/mnuQuestion1"
+        android:title="@string/q1"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/mnuQuestion2"
+        android:title="@string/q2"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/mnuAbout"
+        android:title="@string/about"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/mnuExit"
+        android:title="@string/exit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
