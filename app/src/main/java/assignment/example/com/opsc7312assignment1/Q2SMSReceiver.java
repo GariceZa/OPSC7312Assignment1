@@ -39,12 +39,14 @@ public class Q2SMSReceiver extends BroadcastReceiver {
                 SMSStr += SMSMsg[cnt].getMessageBody().toString();
             }
         }
-        //end broadcast
-        this.abortBroadcast();
+
         //intent to update the activity with the sms
         Intent broadCastIntent = new Intent();
         broadCastIntent.setAction("SMS_RECEIVED_ACTION");
         broadCastIntent.putExtra("sms",SMSStr);
         context.sendBroadcast(broadCastIntent);
+
+        //end broadcast
+        this.abortBroadcast();
     }
 }
